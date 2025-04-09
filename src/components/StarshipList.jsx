@@ -5,6 +5,7 @@ const StarshipList = (props) => {
     return (
         <section className="starshipBox">
             {/* This will iterate through the starships state variable for all the starship cards*/}
+            
             {props.starships.results.map((starship, index) => (
                 <div className='starshipCard' key={index}>
                 <h2>{capitalizeWords(starship.name)}</h2>

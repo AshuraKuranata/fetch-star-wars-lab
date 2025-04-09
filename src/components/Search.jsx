@@ -11,6 +11,7 @@ const Search = (props) => {
             `https://swapi.dev/api/starships/?search=${props.starshipName}`
         )
         let JSONdata = await response.json()
+        console.log(JSONdata)
         props.setStarship(JSONdata)
     }
     return(
