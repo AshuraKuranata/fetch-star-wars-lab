@@ -3,7 +3,7 @@ const StarshipList = (props) => {
         return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
     }
     return (
-        <section>
+        <section className="starshipBox">
             {/* This will iterate through the starships state variable for all the starship cards*/}
             {props.starships.results.map((starship, index) => (
                 <div className='starshipCard' key={index}>

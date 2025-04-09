@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+
+.starshipBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.starshipCard {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 20px;
+  min-width: 360px;
+  background-image: linear-gradient(grey, rgb(58, 58, 58));
+  border: 2px solid rgb(0, 0, 102);
+}
